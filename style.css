@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+aside {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+}
+
+.icon-menu img {
+  width: 36px;
+  height: 36px;
+  margin-top: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+#barra-menu {
+  background-color: #2b6b6b;
+  height: 100vh;
+  width: 0px;
+  transition: 0.3s all;
+}
+
+#barra-menu ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+#barra-menu a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  font-size: 25px;
+}
